@@ -1,0 +1,5 @@
+aiounittest==1.4.1
+coverage==6.1.1
+uvicorn==0.15.0
+fastapi==0.70.0
+SQLAlchemy==1.4.26
