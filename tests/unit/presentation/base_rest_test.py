@@ -8,6 +8,7 @@ class BaseRestTest(unittest.TestCase):
     """ Test utility class. For DRY purposes sets up a TestClient for every rest controller unit test """
 
     def setUp(self) -> None:
+        """ Overridden method """
         self.rest_client = TestClient(app)
 
     def tearDown(self) -> None:
