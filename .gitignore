@@ -1,0 +1,12 @@
+# PyCharm metadata folder
+.idea
+
+# Virtual Environment
+venv
+
+# Python cache
+__pycache__
+
+# SonarQube
+.coverage
+coverage.xml
